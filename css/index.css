@@ -313,7 +313,20 @@ ul {
     .container {
         background: blue;
         width: 500px;
-    
-        }
     }
-
+    .first-row nav a {
+        display: flex;
+        justify-content: center;
+        /* margin: 0 45% 2% 45%;  This causes the border to not fill accross screen- only under word*/
+        border-bottom: 1px solid grey;
+        padding-bottom: 4%;
+        text-decoration: none;
+    }
+    .logo {
+        /* border-bottom: 1px solid grey; */
+        /* cannot get border under Great Idea to go against screen */
+        display: flex;
+    }
+ 
+    
+}
