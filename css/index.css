@@ -69,7 +69,8 @@ h1, h2, h3, h4, h5 {
 
 .first-row {
 	display: flex;
-	justify-content: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
 	
 }
 
@@ -146,10 +147,6 @@ h5 {
 	border-bottom: 1px solid black;
 	width: 385px;
 	padding-bottom: 22px;
-}
-
-.downdown {
-	margin-bottom: 800px;
 }
 
 footer h5 {
@@ -270,3 +267,44 @@ ul {
 .facts p {
 	width: 400px;
 }
+
+
+/* tablet - for 800 and below do this */
+@media (max-width: 800px) {
+    .container {
+        background: red;
+        width: 800px;
+    }
+    .circle-logo {
+        display: none;
+    }
+    .first-row {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .logo {
+        width: 20%;
+        margin: 2% 0 4% 40%;
+    }
+    .logo-header {
+        margin: 0% 0% 25% 20%;
+    }
+    .innovation-header {
+        margin-left: 20%;
+    }
+    .third-row {
+        border-top: 2px solid black;
+        width: 110%;
+    }
+}
+
+/* tablet - for 500 and below do this */
+@media (max-width: 500px) {
+    .container {
+        background: blue;
+        width: 500px;
+    
+        }
+    }
+
