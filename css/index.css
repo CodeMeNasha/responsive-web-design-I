@@ -92,13 +92,12 @@ h5 {
 	display: flex;
 }
 
-.first-row a {
-	/* margin: 20px; */
+.first-row nav {
     color: grey;
-    display: inline-block;
-    /* display: flex; */
-    /* flex-direction: row; */
+    display: flex;
+    width: 70%;
     justify-content: space-between;
+    padding-top: 3%;
 }
 
 .second-row {
@@ -122,6 +121,10 @@ h5 {
 
 }
 
+.first-row .logo {
+    margin-top: 2%;
+}
+
 .logo-header {
      align-items: flex-start;
 }
@@ -134,8 +137,12 @@ h5 {
 }
 
 .started {
-	padding: 2px 35px 2px 35px;
+    margin: 0 auto;
+    display: block;
+	padding: 3px 12px;
     border: 1px solid black;
+    width: 30%;
+    text-align: center;
 }
 
 .third-row {
