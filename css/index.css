@@ -326,35 +326,59 @@ ul {
     
 }
 
-/* tablet - for 500 and below do this */
+/* phone - for 500 and below do this */
 @media (max-width: 500px) {
     .container {
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
-        background: blue;
+    }
+    .first-row nav {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4%;
+        border-top: 1px solid grey;
     }
     .first-row nav a {
-        display: flex;
-        justify-content: center;
-        /* margin: 0 45% 2% 45%;  This causes the border to not fill accross screen- only under word*/
+        align-self: center;
         border-bottom: 1px solid grey;
-        padding-bottom: 4%;
-        text-decoration: none;
+        width: 100%;
+        padding-left: 45%;
+        padding-top: 2.5%;
+        padding-bottom: 3%;
     }
+
     .logo {
-        /* border-bottom: 1px solid grey; */
-        /* cannot get border under Great Idea to go against screen */
         display: flex;
+        padding: 0%;
+        padding-bottom: 4%;
     }
     .second-row {
         margin-top: -20%;
+        padding-bottom: 5%;
+        border-bottom: 2px solid black;
     }
     .started {
-        margin-right: 20%;
+        margin-left: 0%;
     }
+   
     .third-row {
-        margin-top: 40%;
+        margin-top: 10%;
+        display: inline;
+        border-top: 1px solid black;
+
     }
- 
-    
+    .innovation-header {
+        padding-top: 8%;
+    }
+    .bottom-three {
+        flex-direction: column;
+        width: 100%;
+        display: inline;  
+    }
+
+    .low-part {
+        width: 100%;
+    }
+
+        
 }
